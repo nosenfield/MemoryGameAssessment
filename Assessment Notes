@@ -1,0 +1,33 @@
+# Lifelong Learning Assessment Notes
+
+## Overview
+
+The assignment is titled "memory game programming test" and the objective is to demonstrate programming skills and an understanding of gave development concepts.
+The assignment needs to be completed ASAP to comply with the requested timeline and we do not have the usual amount of time prescribed to complete (a weekend).
+To demonstrate the skills within the requisite time I have down-scoped the project and, where possible, supply previously created ancillary material to support.
+
+Minimum requirements to display core competencies:
+
+- a visual grid of cards
+- clicking
+  - card reveal
+  - card match logic
+    - return to normal
+    - remove from board
+- game completion logic
+  - reset game
+
+show implementation for
+
+- difficulties (set the number of cards)
+- where/how animations would be played
+- where/how sounds would be played
+
+3:00 - begin project setup and asset import. create readme and outline methodology
+3:20 - begin coding
+
+Wrote basic card
+
+3:35 - beginning experience visualization
+
+Experience Visualization
