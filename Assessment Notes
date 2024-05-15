@@ -31,3 +31,26 @@ Wrote basic card
 3:35 - beginning experience visualization
 
 Experience Visualization
+Player opens game. Textfield for setting the number of card pairs. Play button for starting the game. Reset button for ending and starting a new game with the requested number of card pairs.
+
+Player clicks start (button sound)
+Lay out cards (could be animated w/ sound)
+Player clicks card.
+Card reveals - card flips - consider zoom in/out
+
+Player clicks second card.
+Card reveals - card flips - consider zoom in/out
+
+No match
+Cards flip back over.
+
+Match
+Remove cards, play celebration
+Check cards remaining
+
+If cards remaining, do nothing
+If no cards remaining, play celebration
+
+### Possible Game Tweaks
+
+- If a design appears more than 3 times in a board, allow for chaining
