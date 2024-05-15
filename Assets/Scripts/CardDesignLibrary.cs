@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "CardDesignLibrary", menuName = "ScriptableObjects/CardDesignLibrary", order = 1)]
@@ -20,4 +21,13 @@ public class CardDesignLibrary : ScriptableObject
         }
     }
     [SerializeField] private Material[] backings;
+    [SerializeField]
+    public Material[] Backings
+    {
+        get
+        {
+            return (Material[])backings.Clone();
+        }
+    }
+
 }

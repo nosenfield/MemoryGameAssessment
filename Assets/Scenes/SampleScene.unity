@@ -570,10 +570,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea0c54c8afb6e48c0a9e48a1e9c2dcaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObservationDelayMilliseconds: 2000
   numCardPairs: 0
   cardPrefab: {fileID: 3964561511513876623, guid: c3f6ea17087f04b33abfd467e8d6c474, type: 3}
   cardContainer: {fileID: 1783570310}
   cardDesignLibrary: {fileID: 11400000, guid: 47c0bdc801e364c46b0daffb9d91bbf1, type: 2}
+  firstCard: {fileID: 0}
 --- !u!1 &440798963
 GameObject:
   m_ObjectHideFlags: 0
