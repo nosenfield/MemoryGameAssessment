@@ -123,11 +123,28 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &357395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3964561511513876623, guid: c3f6ea17087f04b33abfd467e8d6c474, type: 3}
+  m_PrefabInstance: {fileID: 1914397194379950078}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &357396 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1695895482571831420, guid: c3f6ea17087f04b33abfd467e8d6c474, type: 3}
   m_PrefabInstance: {fileID: 1914397194379950078}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &357400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683347c3fdd3442138eb19203538a959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &18455478
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,6 +573,7 @@ MonoBehaviour:
   numCardPairs: 0
   cardPrefab: {fileID: 3964561511513876623, guid: c3f6ea17087f04b33abfd467e8d6c474, type: 3}
   cardContainer: {fileID: 1783570310}
+  cardDesignLibrary: {fileID: 11400000, guid: 47c0bdc801e364c46b0daffb9d91bbf1, type: 2}
 --- !u!1 &440798963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,7 +1753,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3964561511513876623, guid: c3f6ea17087f04b33abfd467e8d6c474, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 357400}
   m_SourcePrefab: {fileID: 100100000, guid: c3f6ea17087f04b33abfd467e8d6c474, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

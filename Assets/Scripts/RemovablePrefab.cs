@@ -10,6 +10,6 @@ public class RemovablePrefab : MonoBehaviour
 {
     void Awake()
     {
-        transform.parent = null;
+        GameObject.Destroy(gameObject);
     }
 }
