@@ -23,14 +23,8 @@ show implementation for
 - where/how animations would be played
 - where/how sounds would be played
 
-3:00 - begin project setup and asset import. create readme and outline methodology
-3:20 - begin coding
+## Experience Visualization/Flow
 
-Wrote basic card
-
-3:35 - beginning experience visualization
-
-## Experience Visualization
 Player opens game. Textfield for setting the number of card pairs. Play button for starting the game. Reset button for ending and starting a new game with the requested number of card pairs.
 
 Player clicks start (button sound)
@@ -52,9 +46,13 @@ If cards remaining, do nothing
 If no cards remaining, play celebration
 
 ## Development Notes
+
 Start Button and Reset Button are essentially doing the exact same thing. Skipping as non-essential UX.
-A card face is essentially identical to its ID. 
+A card face is essentially identical to its ID. Storing these together in some capacity makes sense.
 
 ### Possible Game Tweaks
 
 - If a design appears more than 3 times in a board, allow for chaining
+
+## Estimated Time
+4 hours
